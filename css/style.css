@@ -110,7 +110,7 @@ input {
 
 .post {
   /* height: 302px; */
-  /* width: 186px; */
+  width: 100%;
   position: relative;
   background: #000;
   z-index: -1;

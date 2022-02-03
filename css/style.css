@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,19 +6,20 @@
 }
 
 body {
-  max-width: 375px;
-  height: 812px;
+  max-width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
+  /* border: 1px solid black; */
 }
 
-.artboard {
-  position: relat;
-}
+/* .artboard { */
+/* position: relative; */
+/* } */
 
 .header-top {
   height: 40px;
-  width: 358px;
-  margin: 0 auto;
+  width: 90vw;
+  margin: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -61,8 +61,8 @@ body {
   border: 1px solid white;
   border-radius: 25px;
   position: absolute;
-  top: 3px;
-  right: 16px;
+  top: -40%;
+  right: 0%;
 }
 
 ul {
@@ -84,7 +84,7 @@ ul :nth-child(1) {
 input {
   display: block;
   height: 46px;
-  width: 347px;
+  width: 91vw;
   margin: 10px auto;
   border-radius: 16px;
   text-indent: 6%;
@@ -97,8 +97,8 @@ input {
   height: 16.67px;
   width: 16.67px;
   position: absolute;
-  top: 14px;
-  right: 38px;
+  top: 2vh;
+  right: 8vw;
 }
 
 .posts {
@@ -109,11 +109,17 @@ input {
 }
 
 .post {
-  height: 302px;
-  width: 186px;
+  /* height: 302px; */
+  /* width: 186px; */
   position: relative;
   background: #000;
   z-index: -1;
+}
+
+.post img {
+  width: inherit;
+  display: block;
+  margin: auto;
 }
 
 .post-user-coins {
@@ -183,7 +189,7 @@ h4 {
   justify-content: center;
   border-radius: 50%;
   align-items: center;
-  bottom: 13%;
+  bottom: 10%;
   background: linear-gradient(302deg, #A831FF, #00B3FF);
   position: fixed;
   left: 50%;
@@ -199,8 +205,8 @@ h4 {
   display: flex;
   justify-content: space-around;
   height: 56px;
-  width: 375px;
-  bottom: 0%;
+  width: 100vw;
+  bottom: 0;
   position: fixed;
   background-color: #FFFFFF;
 }

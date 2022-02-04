@@ -30,8 +30,8 @@ body {
   margin: 0 5%;
   display: flex;
   justify-content: space-between;
-  align-items: top;
-  padding: 10px;
+/*   align-items: top; */
+  padding: 10px 0;
 }
 
 
